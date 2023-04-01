@@ -1,0 +1,7 @@
+:doctype: book
+:tags: [rest,hateoas,data,react,security]
+
+= React.js and Spring
+
+
+include::basic/README.adoc[leveloffset=+1]

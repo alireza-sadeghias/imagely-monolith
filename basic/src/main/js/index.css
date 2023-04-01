@@ -1,0 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+font-family: "B_Titr";
+src: local("B_Titr"),
+ url("./fonts/B_Titr.ttf") format("truetype");
+font-weight: bold;
+}
+
+.font-face {
+ font-family: "B_Titr";
+}
