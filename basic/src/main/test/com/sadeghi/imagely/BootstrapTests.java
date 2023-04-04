@@ -15,24 +15,20 @@
  */
 package com.sadeghi.imagely;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.test.context.SpringBootTest;
 
 /**
- * @author  Alireza Sadeghi
+ * @author Alireza Sadeghi
  */
 
-@Controller
-public class HomeController {
+@SpringBootTest
+public class BootstrapTests {
 
-	@RequestMapping(value = "/")
-	public String home() {
-		return "index";
+	@Test
+	public void contextLoads(){
+
 	}
-
-	@RequestMapping(value = "/gallery")
-	public String gallery() {
-		return "index";
-	}
-
 }

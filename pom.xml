@@ -21,9 +21,19 @@
 		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
 
-
 	<name>React.js and Spring monolithic Project</name>
 	<description>a project for sharing images and selling them</description>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.24</version>
+		</dependency>
+
+	</dependencies>
+
 	<build>
 		<pluginManagement>
 			<plugins>

@@ -21,12 +21,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * @author Alireza Sadeghi
  */
-// tag::code[]
+
 @SpringBootApplication
-public class EntryPoint {
+public class Bootstrap {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EntryPoint.class, args);
+		SpringApplication.run(Bootstrap.class, args);
 	}
 }
-// end::code[]
